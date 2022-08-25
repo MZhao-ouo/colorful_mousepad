@@ -1,7 +1,6 @@
 window.addEventListener("scroll", (e)=>{
     let noStickyOffset = document.body.clientHeight*4; 
     let scrolled = document.body.scrollTop / noStickyOffset;
-    console.log(scrolled);
 
     let $pink = document.querySelector(".pink");
     let $purple = document.querySelector(".purple");
